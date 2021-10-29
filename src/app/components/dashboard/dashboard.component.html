@@ -1,0 +1,21 @@
+<div class="container">
+    <div *ngFor="let sub of subject">
+        <div class="card" style="width: 18rem;"  >
+            <div class="card-body" >
+                
+              <h5 class="card-title">{{sub.name}}</h5>
+              <p class="card-text">{{sub.id}}</p>
+              <a href="#" class="btn btn-primary m-2">{{sub.created_at|date}}</a>
+              <a href="#" class="btn btn-primary m-2">{{sub.updated_at|date}}</a>
+              <br>
+            </div>
+    
+        </div>
+        <br>
+    
+    </div>
+
+
+
+      <br>
+</div>
